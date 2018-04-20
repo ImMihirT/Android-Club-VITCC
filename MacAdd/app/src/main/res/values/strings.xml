@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MacAd</string>
+    <string-array name="names">
+        <item>"Help"</item>
+        <item>"Refresh</item>
+    </string-array>
+
+</resources>

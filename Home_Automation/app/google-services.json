@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "736574800988",
+    "firebase_url": "https://home-aut-da627.firebaseio.com",
+    "project_id": "home-aut-da627",
+    "storage_bucket": "home-aut-da627.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:736574800988:android:88f1b28258ea3892",
+        "android_client_info": {
+          "package_name": "com.qnext.mac.home_automation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "736574800988-oam3qkuarheuhbdhvakfa5dafjbnkipv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.qnext.mac.home_automation",
+            "certificate_hash": "f3fee0f7ac62e16fb0c91d88af03fb39a345b418"
+          }
+        },
+        {
+          "client_id": "736574800988-ntvgobvf5l0bg2f71arinrdl72li642l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLu--RDC42ej99X-ye6d8zluEgSzxJ9Pg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "736574800988-ntvgobvf5l0bg2f71arinrdl72li642l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

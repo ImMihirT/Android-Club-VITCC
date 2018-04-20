@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c2"
+    tools:context="com.qnext.mac.home_automation.MainActivity">
+
+
+    <EditText
+        android:id="@+id/uname"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/uname"
+        android:ems="10"
+        android:hint="Username"
+        android:textColorHint="@color/colorAccent"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="71dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorAccent"
+
+        android:drawableLeft="@drawable/lock"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@+id/uname"
+        android:layout_alignStart="@+id/uname"
+        android:layout_marginTop="25dp" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+
+        android:text="Login"
+
+        android:textAlignment="center"
+
+        app:cardBackgroundColor="@color/c1"
+
+        app:cardCornerRadius="25dp"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/pass"
+        android:layout_centerHorizontal="true">
+
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="monospace"
+                android:text="Login"
+                android:textColor="#ffff"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="55dp"
+        app:srcCompat="@drawable/hmaut"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
